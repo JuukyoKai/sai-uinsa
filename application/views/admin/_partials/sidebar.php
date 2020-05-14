@@ -57,8 +57,8 @@
             <span>Prodi</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-            <a class="dropdown-item" href="<?php echo site_url('prodi/absen/index') ?>">Absen</a>
-            <a class="dropdown-item" href="<?php echo site_url('prodi/hasil_test/index') ?>">Hasil Test</a>
+            <a class="dropdown-item" href="<?php echo site_url('prodi/absen') ?>">Absen</a>
+            <a class="dropdown-item" href="<?php echo site_url('prodi/hasil_test') ?>">Hasil Test</a>
         </div>
     </li>
 

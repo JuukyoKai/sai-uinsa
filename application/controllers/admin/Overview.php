@@ -4,9 +4,9 @@ class Overview extends CI_Controller {
     public function __construct()
     {
 		parent::__construct();
-		//$this->load->model("user_model");
-		$this->load->model("loginmhs_model");
-		//if($this->user_model->isNotLogin()) redirect(site_url('admin/login'));
+		$this->load->model("user_model");
+		//$this->load->model("loginmhs_model");
+		if($this->user_model->isNotLogin()) redirect(site_url('admin/login'));
 	}
 
 	public function index()

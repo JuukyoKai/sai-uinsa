@@ -32,8 +32,8 @@
 									<tr style="background-color:#015c19; color:white">
 										<th>NIM</th>
 										<th>Nama</th>
-										<th>Fakultas</th>
 										<th>Jurusan</th>
+										<th>Fakultas</th>
                                         <th>P1</th>
                                         <th>P2</th>
                                         <th>P3</th>
